@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ListItem from "@/components/ListItem";
 
 
 
@@ -43,7 +44,10 @@ export default function Home() {
             mt-4
           "
         >
-          <ListItem />
+          <ListItem
+            image="/assets/liked.png"
+            name="Liked Songs"
+          />
         </div>
       </div>
     </Header>
