@@ -1,6 +1,19 @@
 import Header from "@/components/Header";
 
 
+
+var time = new Date()
+var curHr = time.getHours()
+let tiempo = ""
+
+if (curHr < 12) {
+  tiempo = "Good morning"
+} else if (curHr < 18) {
+  tiempo = "Good afternoon"
+} else {
+  tiempo = "Good evening"
+}
+
 export default function Home() {
  return (
   <div className="
@@ -17,7 +30,21 @@ export default function Home() {
           text-white
           text-3xl
           font-semibold
-        ">Welcome Back</h1>
+        ">{tiempo}
+        </h1>
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:gris-cols-2
+            xl:grid-cols-3
+            2xl:grid-cols-4
+            gap-3
+            mt-4
+          "
+        >
+          <ListItem />
+        </div>
       </div>
     </Header>
   </div>
