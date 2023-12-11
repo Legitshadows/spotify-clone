@@ -1,5 +1,7 @@
 "use client";
 
+import Model from "@/components/Model";
+
 import { useEffect, useState } from "react";
 
 const ModelProvider = () => {
@@ -15,7 +17,14 @@ const ModelProvider = () => {
 
     return (
         <>
-          Models Test
+          <Model 
+          title="Test Model" 
+          description="Test Description" 
+          isOpen 
+          onChange={() => {}}
+           >
+          Test Children
+          </Model>
         </>
     );
 }
