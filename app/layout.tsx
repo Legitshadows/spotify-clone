@@ -5,7 +5,6 @@ import Sidebar from '@/components/Sidebar'
 import SupabaseProvider from '@/providers/SupabaseProviders'
 import UserProvider from '@/providers/UserProvider'
 import ModelProvider from '@/providers/ModelProvider'
-import React from 'react'
 
 const font = Figtree({ subsets: ['latin'] })
 
