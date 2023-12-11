@@ -5,3 +5,4 @@ For this approach, i decided to follow a tutorial which i will link later on to 
 Tailwind CSS, Supabase, PostgreSQL and Stripe.
 
 Although it is based off a tutorial, i will be revamping, refactoring and adding new features to the original code based on what i've learned.
+Anything needed for this project, feel free to open up an issue and ill review it on my free time.
